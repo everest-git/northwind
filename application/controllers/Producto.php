@@ -13,7 +13,7 @@ class Producto extends CI_Controller {
 	{
 		$this->load->view('templates/backend/header');
 		$this->load->view('producto/index_view');
-		$this->load->view('templates/admin/footer');	
+		$this->load->view('templates/backend/footer');	
 	}
 
 }
