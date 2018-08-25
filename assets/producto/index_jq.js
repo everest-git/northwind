@@ -16,7 +16,7 @@ $(document).ready(function() {
 		            { "data": "QuantityPerUnit" },
 		            { "data": "UnitPrice" },
 		            { "data": "UnitsInStock" },
-		            { "data": "UnitsOnOrder" }
+		            { "data": "UnitsOnOrder" },
 		            { "data": "ReorderLevel" },
 		            { "data": "Discontinued" }
 		        ]
