@@ -6,7 +6,7 @@ $(document).ready(function() {
         type: 'POST',
         dataType: 'json',
         success: function(data){
-        	$('#example').DataTable( {
+        	$('#example').DataTable({
 		        "data": data,
 		        "columns": [
 		            { "data": "ProductID" },
@@ -20,8 +20,7 @@ $(document).ready(function() {
 		            { "data": "ReorderLevel" },
 		            { "data": "Discontinued" }
 		        ]
-    });
+    		});
         }
     });
-	
 });				
