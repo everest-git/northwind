@@ -16,6 +16,13 @@ class Producto extends CI_Controller {
 		$this->load->view('templates/backend/footer');	
 	}
 
+	public function get_productos()
+	{
+		if($this->input->is_ajax_request())
+		{
+			echo json_encode($this->Producto_model->get_all());
+		}	
+	}
 }
 
 /* End of file Producto.php */
