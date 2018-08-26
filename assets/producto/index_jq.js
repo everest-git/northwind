@@ -3,10 +3,10 @@ $(document).ready(function() {
 
 	$.ajax({
 		url: base_url + '/producto/get_productos',
-        type: 'POST',
+        type: 'get',
         dataType: 'json',
         success: function(data){
-        	$('#example').DataTable({
+        	$('#productos').DataTable({
 		        "data": data,
 		        "columns": [
 		            { "data": "ProductID" },
