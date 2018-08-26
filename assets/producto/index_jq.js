@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#productos').DataTable();
+	//$('#productos').DataTable();
 
 	$.ajax({
 		url: base_url + 'index.php/producto/get_productos',
