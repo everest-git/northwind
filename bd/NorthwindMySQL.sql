@@ -19,8 +19,8 @@
 --
 
 DROP DATABASE IF EXISTS Northwind;
-CREATE DATABASE Northwind;
-USE Northwind;
+CREATE DATABASE northwind;
+USE northwind;
 
 --
 -- Definition of table `Categories`

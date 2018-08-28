@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//$('#productos').DataTable();
-
+	alert('entre al script');
 	$.ajax({
 		url: base_url + 'index.php/producto/get_productos',
         type: 'get',
