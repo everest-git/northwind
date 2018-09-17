@@ -2,7 +2,7 @@ $(document).ready(function() {
 	//$('#productos').DataTable();
 	alert('entre al script');
 	$.ajax({
-		url: base_url + 'index.php/producto/get_productos',
+		url: base_url + 'producto/get_productos',
         type: 'get',
         dataType: 'json',
         success: function(data){
