@@ -9,10 +9,16 @@ class Crud_model extends CI_Model {
 		//Do your magic here
 	}
 
-	public function get_all($tabla)
+	public function get_all($tabla, $select, $where, $order_by)
 	{
+
 		$query = $this->db->get($tabla);
 		return $query->result();
+	}
+
+	public function get_by_id($tabla)
+	{
+		
 	}
 
 }
